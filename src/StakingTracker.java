@@ -91,7 +91,7 @@ public class StakingTracker {
 
     private static void saveToICSFile(String stakingName, List<String> checkIns) {
         File file = new File("staking_checkins.ics");
-        try (FileWriter writer = new FileWriter(file, false)) { // false для очистки файла при каждом запуске
+        try (FileWriter writer = new FileWriter(file, false)) {
             writer.write("BEGIN:VCALENDAR\n");
             writer.write("PRODID:-//LEGUSHUA w//EN\n");
             writer.write("VERSION:2.0\n");
