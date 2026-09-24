@@ -1,8 +1,8 @@
 ## StakingTracker
 
-**StakingTracker** — Automated Telegram Staking Check-in Calendar Generator.
+**StakingTracker** — Automated Staking Check-in Calendar Generator.
 
-The program automatically calculates and creates a complete check-in calendar for any staking phase (24/12/6 or 12/6/3) and saves it as a clean `.ics` file. You can import the file directly into Google Calendar, Apple Calendar, Outlook, or Telegram Calendar.
+The program automatically calculates and creates a complete check-in calendar for any staking phase (24/12/6 or 12/6/3) and saves it as a clean `.ics` file. You can import the file directly into Google Calendar, Apple Calendar, Outlook etc.
 
 ### Key Features:
 - Automatic calculation of check-ins and 2-hour breaks
