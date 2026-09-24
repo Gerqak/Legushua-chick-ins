@@ -1,6 +1,12 @@
-# Staking Check-ins
+## StakingTracker
 
-Всем прив! Этот код был создан для потужних лягушатников
-В целом функционал довольно простой, код позволяет генерировать `.ics` файлы с чек-инами для разных стейкингов. 
-По сути, код генерирует файл который если открыть на айфоне (как в моем случае) то он предложить добавить времена всех чек инов и голосований в календарь с оповещением в начале событыя. 
-Лично я использую его так: запускаю код, ввожу данные, программа генерирует мне .ics файл, его я загружаю на гугл диск, кидаю ссылку на телефон и на телефоне запускаю .ics файл.
+**StakingTracker** — Automated Telegram Staking Check-in Calendar Generator.
+
+The program automatically calculates and creates a complete check-in calendar for any staking phase (24/12/6 or 12/6/3) and saves it as a clean `.ics` file. You can import the file directly into Google Calendar, Apple Calendar, Outlook, or Telegram Calendar.
+
+### Key Features:
+- Automatic calculation of check-ins and 2-hour breaks
+- Ready-to-use `.ics` file with voice reminders (Basso sound)
+- Fully automated and easy to run
+
+**[GitHub](https://github.com/Gerqak/StakingTracker)**
